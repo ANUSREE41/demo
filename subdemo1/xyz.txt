@@ -1,0 +1,10 @@
+func rightJustify(s:String)-> String{
+    let n = 70-s.length
+    var y=" "
+    for i in (2...n){
+         y += " "
+    }
+    return y+s
+}
+print(rightJustify(s:"monty"))
+
